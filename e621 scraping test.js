@@ -14,7 +14,6 @@ const testing_url = "https://e621.net/posts?tags=rating%3Aq";
 
 
 (function() {
-    alert("Hello");
     $.ajax({ url: testing_url, success: function(data) {
 
     }});
